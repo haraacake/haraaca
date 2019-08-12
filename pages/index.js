@@ -4,7 +4,7 @@ class Home extends Component {
   render () {
     return (
       <div>
-        <p>
+        <p className="text-4xl">
           Home Page
         </p>
       </div>
