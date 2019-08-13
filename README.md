@@ -61,11 +61,11 @@
 
 ## TODO
 
-- [x] Setup Eslint Rules and VScode
-- [ ] Setup all the routes (keep open if any has been left out)
-- [x] Setup Tailwind and
+- [ ] Global Styles and Components
 - [ ] Tailwind Config
 - [ ] Font Options (Google Fonts)
-- [ ] Global Styles and Components
-- [x] Private Github Repo, Make sure commits are signed & Archive Previous Repo
 - [ ] Utility First and Mobile First Code Writing
+- [ ] Setup all the routes (keep open if any has been left out)
+- [x] Setup Eslint Rules and VScode
+- [x] Setup Tailwind and
+- [x] Private Github Repo, Make sure commits are signed & Archive Previous Repo
