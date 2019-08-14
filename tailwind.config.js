@@ -39,6 +39,9 @@ module.exports = {
           900: '#1a202c',
         },
       },
+      height: {
+        h80screen: '80vh',
+      },
     },
   },
   variants: {},

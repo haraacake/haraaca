@@ -3,9 +3,13 @@ import React from 'react';
 const CarCard = props => {
   const { details } = props;
   return (
-    <div className="antialiased mt-10">
+    <div className="antialiased mt-10 md:mt-4 md:p-2">
       <div>
-        <img className="rounded" src={details.image} alt={details.title} />
+        <img
+          className="rounded w-64 h-32 object-cover"
+          src={details.image}
+          alt={details.title}
+        />
       </div>
       <div className="text-center mt-3 leading-tight">
         <p className="font-bold uppercase tracking-wide">
