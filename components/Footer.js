@@ -1,0 +1,82 @@
+import React from 'react';
+
+const Footer = () => {
+  return (
+    <div className="w-4/5 mx-auto text-squid-100 mt-12">
+      <div>
+        <h3 className="font-bold text-xl">Get Started</h3>
+        <ul>
+          <li>Get Android App</li>
+          <li>Get iPhone App</li>
+          <li>Business Cars</li>
+          <li>Owner Tools</li>
+          <li>List Your Car</li>
+        </ul>
+      </div>
+      <div className="mt-6 flex">
+        <div>
+          <h3 className="font-bold text-xl">Vehicle Types</h3>
+          <ul>
+            <li>Trucks</li>
+            <li>Vans</li>
+            <li>Luxury & Exotic</li>
+            <li>Minivans</li>
+          </ul>
+        </div>
+        <div className="ml-16">
+          <h3 className="font-bold text-xl">Top Cities</h3>
+          <ul>
+            <li>Nairobi</li>
+            <li>Mombasa</li>
+            <li>Kisumu</li>
+            <li>Eldorate</li>
+          </ul>
+        </div>
+      </div>
+      <div className="mt-6">
+        <h3 className="font-bold text-xl">Talk to us</h3>
+        <ul>
+          <li className="flex my-2">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mr-2"
+            >
+              <img src="/static/facebook.svg" alt="facebook icon" />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mr-2"
+            >
+              <img src="/static/instagram.svg" alt="instagram icon" />
+            </a>
+            <a
+              href="mailto:info@haraaca.com"
+              ctarget="_blank"
+              rel="noopener noreferrer"
+              className="mr-2"
+            >
+              <img src="/static/mail.svg" alt="mail icon" />
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/static/twitter.svg" alt="twitter icon" />
+            </a>
+          </li>
+          <li>Contact Customer Care</li>
+        </ul>
+      </div>
+      <div className="border-t-2 border-squid-100 mt-4">
+        <p className="text-sm mt-3">© 2019 Haraaca, LTD.</p>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
