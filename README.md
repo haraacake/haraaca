@@ -61,7 +61,9 @@
 
 ## TODO
 
-- [ ] Global Styles and Components
+1.
+
+- [ ] Components
 - [ ] Tailwind Config
 - [ ] Font Options (Google Fonts)
 - [ ] Utility First and Mobile First Code Writing
@@ -69,3 +71,9 @@
 - [x] Setup Eslint Rules and VScode
 - [x] Setup Tailwind and
 - [x] Private Github Repo, Make sure commits are signed & Archive Previous Repo
+- [x] Styled Components Global Styles, fonts
+
+2.
+
+- [ ] Proptype validation
+- [ ] eslint setup 2 and no push with eslint errors hook.
