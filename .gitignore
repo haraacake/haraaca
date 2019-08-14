@@ -29,3 +29,4 @@ haters/
 .DS_Store
 layout.md
 variables.env
+tailwind-full.config.js
