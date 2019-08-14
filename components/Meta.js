@@ -22,7 +22,7 @@ const Meta = () => {
       <meta charSet="utf-8" />
       <link rel="shortcut icon" href="/static/favicon.png" />
       <link rel="stylesheet" href="/static/nprogress.css" />
-      <title>Haraaca</title>
+      <title>Haraaca - Rent better cars anytime and anywhere</title>
     </Head>
   );
 };
