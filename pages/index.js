@@ -74,7 +74,7 @@ const Home = () => {
       <FeaturedCars />
       <TopDestinations />
       <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-16 md:mt-12 lg:mt-16">
-        <h2 className="text-2xl lg:text-3xl font-bold md:text-center">
+        <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
           Let your car work for you
         </h2>
         <div className="mt-6 md:mt-8 md:flex md:justify-between">
