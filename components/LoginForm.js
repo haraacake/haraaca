@@ -5,24 +5,26 @@ class LoginForm extends Component {
 
   render() {
     return (
-      <div className="w-9/12 mx-auto p-10">
-        <label className="block">
+      <div className="w-11/12 md:w-9/12 lg:w-8/12 xl:w-6/12 mx-auto p-10">
+        <label htmlFor="email" className="block">
           <span className="text-gray-700">Email</span>
           <input
+            id="email"
             type="email"
             className="form-input mt-1 block w-full"
             placeholder="john@example.com"
           />
         </label>
-        <label className="block mt-6">
+        <label htmlFor="password" className="block mt-6">
           <span className="text-gray-700">Password</span>
           <input
+            id="password"
             type="password"
             className="form-input mt-1 block w-full"
             placeholder="keep it strong"
           />
         </label>
-        <button type="button" className="block text-white btn-long mt-8">
+        <button type="button" className="block text-white btn-long mt-5">
           Login
         </button>
         <button
@@ -33,7 +35,7 @@ class LoginForm extends Component {
         </button>
         <button
           type="button"
-          className="block text-white btn-long mt-2 px-8 bg-white text-squid-100 shadow-md"
+          className="block text-white btn-long mt-2 px-8 bg-white text-squid-100 shadow-lg"
         >
           Login with google
         </button>

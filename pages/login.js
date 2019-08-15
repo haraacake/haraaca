@@ -10,7 +10,7 @@ const Login = () => {
         <Nav />
       </div>
       <div className="pt-32">
-        <div className="w-2/4 mx-auto shadow-lg">
+        <div className="w-full md:w-11/12 lg:w-9/12 xl:w-8/12 mx-auto shadow-lg">
           <LoginForm />
         </div>
       </div>
