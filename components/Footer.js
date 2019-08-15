@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <>
-      <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-12 md:mt-20 md:flex md:justify-between">
+      <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-12 md:mt-20 lg:mt-24 md:flex md:justify-between">
         <div>
           <h3 className="font-bold text-xl">Get Started</h3>
           <ul className="md:mt-2">
@@ -24,7 +24,7 @@ const Footer = () => {
               <li>Minivans</li>
             </ul>
           </div>
-          <div className="ml-16 md:ml-8">
+          <div className="ml-16 md:ml-8 lg:ml-24">
             <h3 className="font-bold text-xl">Top Cities</h3>
             <ul className="md:mt-2">
               <li>Nairobi</li>
