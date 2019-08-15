@@ -14,5 +14,13 @@
   @apply text-xs font-bold tracking-wide bg-gray-500 px-4 py-2;
 }
 
+.btn-long {
+  @apply font-bold tracking-wide bg-teal-500 px-6 py-2;
+}
+
+.btn-facebook {
+  @apply font-bold tracking-wide bg-teal-500 px-6 py-2;
+}
+
 @tailwind components;
 @tailwind utilities;
