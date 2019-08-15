@@ -3,10 +3,10 @@ import React from 'react';
 const CarCard = props => {
   const { details } = props;
   return (
-    <div className="antialiased mt-10 md:mt-4 md:p-2">
+    <div className="antialiased mt-8 md:mt-4 md:p-2">
       <div>
         <img
-          className="rounded w-64 h-32 object-cover"
+          className="rounded md:w-64 md:h-32 object-cover"
           src={details.image}
           alt={details.title}
         />

@@ -30,11 +30,11 @@ class FeaturedCars extends Component {
   render() {
     const { cars } = this.state;
     return (
-      <div className="mt-12 w-4/5 md:w-5/6 m-3 mx-auto text-squid-100">
+      <div className="mt-16 w-4/5 md:w-5/6 m-3 mx-auto text-squid-100">
         <h3 className="text-2xl uppercase tracking-wide font-bold">
           Featured Cars
         </h3>
-        <div className="md:flex md:justify-between">
+        <div className="flex flex-col md:flex-row md:justify-between">
           {Object.keys(cars).map(key => (
             <CarCard key={key} details={cars[key]} />
           ))}

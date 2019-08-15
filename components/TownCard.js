@@ -3,12 +3,12 @@ import React from 'react';
 const TownCard = props => {
   const { details } = props;
   return (
-    <div className="antialiased flex shadow-md mt-6 rounded m-2">
+    <div className="antialiased flex shadow-md mt-6 rounded md:m-2">
       <div>
         <img
           src={details.image}
           alt={details.title}
-          className="overflow-hidden rounded-l object-cover"
+          className="rounded-l object-cover"
         />
       </div>
       <div className="ml-3 md:mr-3 mt-2">
