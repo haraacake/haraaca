@@ -2,5 +2,13 @@
 @tailwind base;
 /* purgecss end ignore */
 
+.btn {
+  @apply font-bold tracking-wide bg-teal-500 px-6 py-3;
+}
+
+.btn-wheel {
+  @apply rounded-br-lg;
+}
+
 @tailwind components;
 @tailwind utilities;

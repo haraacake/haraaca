@@ -96,7 +96,7 @@ const Home = () => {
         <div className="md:flex md:justify-center mt-3 md:mt-6 xl:mt-12">
           <Link href="/list-your-car">
             <button
-              className="mt-4 bg-teal-600 text-white font-bold py-2 px-4 lg:py-3 lg:px-6 rounded-br-lg"
+              className="btn btn-wheel mt-4 text-white lg:py-3 lg:px-6"
               type="button"
             >
               List Your Car
