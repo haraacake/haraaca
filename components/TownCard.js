@@ -11,7 +11,7 @@ const TownCard = props => {
           className="rounded-l object-cover"
         />
       </div>
-      <div className="ml-3 md:mr-3 lg:mx-6 mt-2">
+      <div className="ml-3 md:mr-3 lg:mx-6 xl:mx-12 mt-2">
         <p className="font-semibold uppercase tracking-wide text-lg">
           {details.title}
         </p>

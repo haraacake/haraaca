@@ -23,7 +23,7 @@ const Home = () => {
         </h1>
         <div className="mt-12 lg:mt-16">
           <div className="md:flex md:justify-center">
-            <div className="md:mr-4">
+            <div className="md:mr-4 xl:mr-10">
               <h3 className="text-2xl font-semibold">
                 <img
                   className="inline pr-2"
@@ -38,7 +38,7 @@ const Home = () => {
                 ensure you a safe travel experience.
               </p>
             </div>
-            <div className="mt-10 md:mt-0 md:ml-4">
+            <div className="mt-10 md:mt-0 md:ml-4 xl:ml-10">
               <h3 className="text-2xl font-semibold">
                 <img
                   className="inline pr-4"
@@ -54,7 +54,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="mt-10 md:mt-8 md:w-7/12">
+          <div className="mt-10 md:mt-8 xl:mt-20 md:w-7/12 xl:w-5/12">
             <h3 className="text-2xl font-semibold">
               <img
                 className="inline pr-2"
@@ -78,14 +78,14 @@ const Home = () => {
           Let your car work for you
         </h2>
         <div className="mt-6 md:mt-8 md:flex md:justify-between">
-          <div className="mt-3 md:w-1/2 mr-3">
+          <div className="mt-3 md:w-1/2 md:mr-3 xl:mr-8">
             <h3 className="text-xl font-bold">You&apos;re safe</h3>
             <p className="text-lg mt-2">
               We screen all travelers before allowing them to book cars in our
               marketplace.
             </p>
           </div>
-          <div className="mt-6 md:mt-3 md:w-1/2 md:ml-3">
+          <div className="mt-6 md:mt-3 md:w-1/2 md:ml-3 xl:ml-8">
             <h3 className="text-xl font-bold">You&apos;re not alone</h3>
             <p className="text-lg mt-2">
               From our 24/7 emergency line to tips and tricks to earn more with
@@ -93,7 +93,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="md:flex md:justify-center mt-3 md:mt-6">
+        <div className="md:flex md:justify-center mt-3 md:mt-6 xl:mt-12">
           <Link href="/list-your-car">
             <button
               className="mt-4 bg-teal-600 text-white font-bold py-2 px-4 lg:py-3 lg:px-6 rounded-br-lg"

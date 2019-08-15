@@ -24,7 +24,7 @@ const Footer = () => {
               <li>Minivans</li>
             </ul>
           </div>
-          <div className="ml-16 md:ml-8 lg:ml-24">
+          <div className="ml-16 md:ml-8 lg:ml-24 xl:ml-48">
             <h3 className="font-bold text-xl">Top Cities</h3>
             <ul className="md:mt-2">
               <li>Nairobi</li>

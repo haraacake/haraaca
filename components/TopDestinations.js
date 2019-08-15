@@ -34,7 +34,7 @@ class FeaturedCars extends Component {
         <p className="text-lg mt-3 md:mt-0">
           Choose from thousands of cars in all major cities and towns in Kenya.
         </p>
-        <div className="mt-8 md:mt-6 md:flex">
+        <div className="mt-8 md:mt-6 md:flex md:justify-between">
           {Object.keys(towns).map(key => (
             <TownCard key={key} details={towns[key]} />
           ))}
