@@ -31,10 +31,10 @@ class FeaturedCars extends Component {
         <h3 className="text-2xl uppercase font-bold tracking-wide">
           Top Destinations
         </h3>
-        <p className="text-lg mt-3 md:mt-2">
+        <p className="text-lg mt-3 md:mt-0">
           Choose from thousands of cars in all major cities and towns in Kenya.
         </p>
-        <div className="mt-8 md:mt-2 md:flex">
+        <div className="mt-8 md:mt-6 md:flex">
           {Object.keys(towns).map(key => (
             <TownCard key={key} details={towns[key]} />
           ))}

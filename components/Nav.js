@@ -15,7 +15,7 @@ const Nav = () => {
             />
           </Link>
         </div>
-        <div className="hidden w-1/3 md:flex md:w-2/5 items-center justify-between uppercase text-sm">
+        <div className="hidden w-1/3 md:flex items-center justify-between uppercase text-sm">
           <Link href="/how-it-works">
             <a>How It Works</a>
           </Link>

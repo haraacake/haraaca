@@ -17,7 +17,7 @@ const Home = () => {
           alt="home"
         />
       </div>
-      <div className="w-4/5 mx-auto text-squid-100 mt-12">
+      <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-12">
         <h1 className="text-4xl text-left md:text-center leading-none font-semibold">
           Rent better cars anytime, and <br /> anywhere{' '}
         </h1>
@@ -32,7 +32,7 @@ const Home = () => {
                 />
                 Secure
               </h3>
-              <p className="mt-2 text-lg leading-snug">
+              <p className="mt-2 md:mt-4 text-lg leading-snug">
                 Verified drivers, an emergency alert button and live ride
                 tracking are some of the features that we have in place to
                 ensure you a safe travel experience.
@@ -47,14 +47,14 @@ const Home = () => {
                 />
                 Flexible
               </h3>
-              <p className="mt-3 text-lg leading-snug">
+              <p className="mt-3 md:mt-4 text-lg leading-snug">
                 Easily plan a day out without having to worry about convenience
                 as with Haraaca rentals, you can book a cab immediately or up to
                 48 hours in advance.
               </p>
             </div>
           </div>
-          <div className="mt-10 md:w-7/12">
+          <div className="mt-10 md:mt-8 md:w-7/12">
             <h3 className="text-2xl font-semibold">
               <img
                 className="inline pr-2"
@@ -63,7 +63,7 @@ const Home = () => {
               />
               Affordable
             </h3>
-            <p className="mt-3 text-lg leading-snug">
+            <p className="mt-3 md:mt-4 text-lg leading-snug">
               Packages start at 1 hour and can extend up to 12 hours. Also, with
               some nominal additional charges, cabs can be retained beyond
               package limits.
@@ -73,7 +73,7 @@ const Home = () => {
       </div>
       <FeaturedCars />
       <TopDestinations />
-      <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-16">
+      <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-16 md:mt-12">
         <h2 className="text-2xl font-bold md:text-center">
           Let your car work for you
         </h2>
