@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Home extends Component {
-  render () {
-    return (
-      <div>
-        <p>
-          How it Works
-        </p>
+import Nav from '../components/Nav';
+
+const HowItWorks = () => {
+  return (
+    <>
+      <div className="">
+        <Nav />
       </div>
-    )
-  }
-}
+    </>
+  );
+};
 
-export default Home;
+export default HowItWorks;

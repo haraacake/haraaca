@@ -2,7 +2,7 @@ import React from 'react';
 
 import Nav from '../components/Nav';
 
-const BookACar = () => {
+const Login = () => {
   return (
     <>
       <div className="">
@@ -12,4 +12,4 @@ const BookACar = () => {
   );
 };
 
-export default BookACar;
+export default Login;

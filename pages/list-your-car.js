@@ -1,15 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Home extends Component {
-  render () {
-    return (
-      <div>
-        <p>
-          List Your Car
-        </p>
+import Nav from '../components/Nav';
+
+const ListYourCar = () => {
+  return (
+    <>
+      <div className="">
+        <Nav />
+        <img
+          className="h-screen w-screen object-cover object-left md:object-center"
+          src="/static/3.jpg"
+          alt="home"
+        />
       </div>
-    )
-  }
-}
+    </>
+  );
+};
 
-export default Home;
+export default ListYourCar;
