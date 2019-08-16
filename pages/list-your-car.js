@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
@@ -30,9 +31,11 @@ const ListYourCar = () => {
             Renting out your car has never been this easy. Listing your car is
             easy and it takes just about 10 Minutes.
           </p>
-          <button className="btn btn-wheel mt-8" type="button">
-            Get Started
-          </button>
+          <Link href="/signup">
+            <button className="btn btn-wheel mt-8" type="button">
+              Get Started
+            </button>
+          </Link>
         </div>
       </Header>
       <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-12 lg:mt-16">
