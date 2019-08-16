@@ -15,6 +15,7 @@ module.exports = {
         },
         squid: {
           100: '#092F56', // text-color
+          200: '#092f56c2',
         },
         red: {
           100: '#fff5f5',

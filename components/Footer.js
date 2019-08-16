@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <>
-      <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-12 md:mt-20 lg:mt-24 md:flex md:justify-between">
+      <div className="w-11/12 md:w-5/6 mx-auto text-squid-100 mt-12 md:mt-20 lg:mt-24 md:flex md:justify-between">
         <div>
           <h3 className="font-bold text-xl">Get Started</h3>
           <ul className="md:mt-2">
@@ -74,7 +74,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 border-t-2 border-squid-100 mt-4 md:mt-6">
+      <div className="w-11/12 md:w-5/6 mx-auto text-squid-100 border-t-2 border-squid-100 mt-4 md:mt-6">
         <p className="text-sm my-4">© 2019 Haraaca, LTD.</p>
       </div>
     </>
