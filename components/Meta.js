@@ -22,6 +22,7 @@ const Meta = () => {
       <meta charSet="utf-8" />
       <link rel="shortcut icon" href="/static/favicon.png" />
       <link rel="stylesheet" href="/static/nprogress.css" />
+      <link rel="stylesheet" href="/static/react-datepicker.css" />
       <title>Rent better cars anytime and anywhere | Haraaca</title>
     </Head>
   );

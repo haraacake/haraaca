@@ -4,7 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 import DatePicker from 'react-datepicker';
 
-import 'react-datepicker/dist/react-datepicker.css';
+// import 'react-datepicker/dist/react-datepicker.css';
 
 import Time from './Time';
 
