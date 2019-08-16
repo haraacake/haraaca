@@ -11,7 +11,7 @@ const BookACar = () => {
       <div className="">
         <SearchNav />
       </div>
-      <div className="pt-40">
+      <div className="pt-48">
         <TopDestinations />
       </div>
       <TopListedCars />

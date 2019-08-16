@@ -9,9 +9,9 @@ const Footer = () => {
           <ul className="md:mt-2">
             <li>Get Android App</li>
             <li>Get iPhone App</li>
-            <li>Business Cars</li>
-            <li>Owner Tools</li>
+            <li>How It Works</li>
             <li>List Your Car</li>
+            <li>Business Cars</li>
           </ul>
         </div>
         <div className="mt-6 md:mt-0 flex">

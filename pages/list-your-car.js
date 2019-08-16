@@ -23,7 +23,7 @@ const ListYourCar = () => {
     <>
       <Header className="h-screen w-screen">
         <Nav />
-        <div className="w-4/5 md:w-3/5 xl:w-2/4 mx-auto pt-32 md:pt-56 md:text-center text-white">
+        <div className="w-4/5 md:w-3/5 xl:w-2/4 mx-auto pt-40 md:pt-56 md:text-center text-white">
           <h1 className="font-bold text-3xl md:text-4xl leading-tight">
             Let Your Car Work For You
           </h1>
