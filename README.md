@@ -61,19 +61,13 @@
 
 ## TODO
 
-1.
+- [ ] Town Page
+- [ ] Account Page
+- [ ] How it works page
 
-- [ ] Components
-- [ ] Tailwind Config
-- [ ] Font Options (Google Fonts)
-- [ ] Utility First and Mobile First Code Writing
-- [ ] Setup all the routes (keep open if any has been left out)
-- [x] Setup Eslint Rules and VScode
-- [x] Setup Tailwind and
-- [x] Private Github Repo, Make sure commits are signed & Archive Previous Repo
-- [x] Styled Components Global Styles, fonts
+- [ ] Vehicle Type Page
+- [ ] Business Cars Page
 
-2.
+## Bugs
 
-- [ ] Proptype validation
-- [ ] eslint setup 2 and no push with eslint errors hook.
+- [ ] Date picker not working on production build
