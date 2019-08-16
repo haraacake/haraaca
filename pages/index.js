@@ -1,22 +1,33 @@
 import React from 'react';
 import Link from 'next/link';
+import styled from 'styled-components';
 
 import FeaturedCars from '../components/FeaturedCars';
 import TopDestinations from '../components/TopDestinations';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
+import Search from '../components/Search';
+
+const Div = styled.div`
+  background: url('/static/head-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+`;
 
 const Home = () => {
   return (
     <>
-      <div className="">
+      <Div className="h-screen w-full">
         <Nav />
-        <img
-          className="h-screen w-screen object-cover"
-          src="/static/head-image.jpg"
-          alt="home"
-        />
-      </div>
+        <div className="container mx-auto pt-56">
+          <h3 className="hidden md:block leading-tight text-white text-5xl text-center font-bold mb-10">
+            Unforgettable experiences, Affordable Cars.
+          </h3>
+          <div className="w-11/12 lg:w-8/12 mx-auto">
+            <Search />
+          </div>
+        </div>
+      </Div>
       <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-12 lg:mt-16">
         <h1 className="text-4xl lg:text-5xl text-left md:text-center leading-none font-semibold">
           Rent better cars anytime, and <br /> anywhere{' '}
