@@ -26,7 +26,7 @@ class SignupForm extends Component {
             />
           </label>
         </div>
-        <p className="text-gray-700 text-xs mt-1">
+        <p className="text-gray-700 font-bold tracking-wide text-xs mt-2">
           Enter your name as it appears on your drivers license
         </p>
         <label htmlFor="email" className="block mt-6 xl:mr-6">

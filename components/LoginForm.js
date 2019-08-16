@@ -7,7 +7,7 @@ class LoginForm extends Component {
     return (
       <div className="w-11/12 md:w-9/12 lg:w-8/12 xl:w-6/12 mx-auto p-10">
         <label htmlFor="email" className="block">
-          <span className="text-gray-700">Email</span>
+          <span className="text-gray-800">Email</span>
           <input
             id="email"
             type="email"
@@ -16,7 +16,7 @@ class LoginForm extends Component {
           />
         </label>
         <label htmlFor="password" className="block mt-6">
-          <span className="text-gray-700">Password</span>
+          <span className="text-gray-800">Password</span>
           <input
             id="password"
             type="password"
