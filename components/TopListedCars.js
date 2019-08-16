@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
+import Link from 'next/link';
 
 import CarCard from './CarCard';
 
@@ -54,7 +56,11 @@ class TopListedCars extends Component {
         </h3>
         <div className="flex flex-col md:flex-row md:justify-between flex-wrap">
           {Object.keys(cars).map(key => (
-            <CarCard key={key} details={cars[key]} />
+            <Link href="/car">
+              <a className="md:w-1/3">
+                <CarCard key={key} details={cars[key]} />
+              </a>
+            </Link>
           ))}
         </div>
         <p className="mt-8 font-bold">

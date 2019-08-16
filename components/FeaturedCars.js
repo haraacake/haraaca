@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from 'next/link';
 
 import CarCard from './CarCard';
 
@@ -36,7 +37,11 @@ class FeaturedCars extends Component {
         </h3>
         <div className="flex flex-col md:flex-row md:justify-between">
           {Object.keys(cars).map(key => (
-            <CarCard key={key} details={cars[key]} />
+            <Link href="/car">
+              <a className="md:w-1/3">
+                <CarCard key={key} details={cars[key]} />
+              </a>
+            </Link>
           ))}
         </div>
       </div>

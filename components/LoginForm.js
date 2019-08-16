@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from 'next/link';
 
 class LoginForm extends Component {
   state = {};
@@ -24,9 +25,11 @@ class LoginForm extends Component {
             placeholder="keep it strong"
           />
         </label>
-        <button type="button" className="block text-white btn-long mt-5">
-          Login
-        </button>
+        <Link href="/account">
+          <button type="button" className="block text-white btn-long mt-5">
+            Login
+          </button>
+        </Link>
         <button
           type="button"
           className="block text-white btn-long mt-4 bg-blue-700 shadow-md"
