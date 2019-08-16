@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/label-has-for */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { Component } from 'react';
 import DatePicker from 'react-datepicker';
 
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import CarCard from '../components/CarCard';
 import Time from '../components/Time';
 import FeaturedCars from '../components/FeaturedCars';
 
@@ -11,12 +12,6 @@ import 'react-datepicker/dist/react-datepicker.css';
 
 class Car extends Component {
   state = {
-    host: {
-      first_name: 'John',
-      last_name: 'Doe',
-      image: '',
-      stars: '5',
-    },
     car: {
       title: `Chevrolet Corvette`,
       year: '2018',
@@ -26,20 +21,10 @@ class Car extends Component {
       image: '/static/chevrolet.jpg',
       headImage: '/static/chevrolet-head.jpg',
     },
-    likecars: {
-      car3: {
-        title: `Porsche 911`,
-        year: '2017',
-        price: '2900',
-        image: '/static/porsche.jpg',
-      },
-    },
   };
 
   render() {
     const { car } = this.state;
-    const { host } = this.state;
-    const { likecars } = this.state;
 
     return (
       <>

@@ -1,12 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const SelectTime = styled.select`
-  margin-top: 1rem;
-  border: none;
-  background-color: white;
-  cursor: pointer;
-`;
 
 // text-base leading-none font-normal
 

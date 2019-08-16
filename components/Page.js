@@ -1,3 +1,6 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable no-unused-expressions */
 import React, { Component } from 'react';
 import { injectGlobal } from 'styled-components';
 import Meta from './Meta';
