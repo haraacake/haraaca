@@ -69,5 +69,3 @@
 - [ ] Business Cars Page
 
 ## Bugs
-
-- [ ] Date picker not working on production build
