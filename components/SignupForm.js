@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from 'next/link';
 
 class SignupForm extends Component {
   state = {};
@@ -38,21 +39,27 @@ class SignupForm extends Component {
             placeholder="john@example.com"
           />
         </label>
-        <button type="button" className="block text-white btn-long mt-8">
-          Continue
-        </button>
-        <button
-          type="button"
-          className="block text-white btn-long mt-4 bg-blue-700 shadow-md"
-        >
-          Continue with facebook
-        </button>
-        <button
-          type="button"
-          className="block text-white btn-long mt-2 px-8 bg-white text-squid-100 shadow-md"
-        >
-          Continue with google
-        </button>
+        <Link href="/signup-2">
+          <button type="button" className="block text-white btn-long mt-8">
+            Continue
+          </button>
+        </Link>
+        <Link href="/signup-2">
+          <button
+            type="button"
+            className="block text-white btn-long mt-4 bg-blue-700 shadow-md"
+          >
+            Continue with facebook
+          </button>
+        </Link>
+        <Link href="/signup-2">
+          <button
+            type="button"
+            className="block text-white btn-long mt-2 px-8 bg-white text-squid-100 shadow-md"
+          >
+            Continue with google
+          </button>
+        </Link>
       </div>
     );
   }
