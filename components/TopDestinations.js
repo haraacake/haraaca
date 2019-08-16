@@ -27,7 +27,7 @@ class FeaturedCars extends Component {
   render() {
     const { towns } = this.state;
     return (
-      <div className="mt-12 lg:mt-16 w-4/5 md:w-5/6 mx-auto text-squid-100">
+      <div className="mt-12 lg:mt-16 w-11/12 md:w-5/6 mx-auto text-squid-100">
         <h3 className="text-2xl uppercase font-bold tracking-wide">
           Top Destinations
         </h3>

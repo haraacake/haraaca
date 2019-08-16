@@ -28,7 +28,7 @@ const Home = () => {
           </div>
         </div>
       </Div>
-      <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-12 lg:mt-16">
+      <div className="w-11/12 md:w-5/6 mx-auto text-squid-100 mt-12 lg:mt-16">
         <h1 className="text-4xl lg:text-5xl text-left md:text-center leading-none font-semibold">
           Rent better cars anytime, and <br /> anywhere{' '}
         </h1>
@@ -84,8 +84,8 @@ const Home = () => {
       </div>
       <FeaturedCars />
       <TopDestinations />
-      <div className="w-4/5 md:w-5/6 mx-auto text-squid-100 mt-16 md:mt-12 lg:mt-16">
-        <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
+      <div className="w-11/12 md:w-5/6 mx-auto text-squid-100 mt-16 md:mt-12 lg:mt-16">
+        <h2 className="text-3xl lg:text-4xl font-bold md:text-center leading-tight">
           Let your car work for you
         </h2>
         <div className="mt-6 md:mt-8 md:flex md:justify-between">

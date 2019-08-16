@@ -50,7 +50,7 @@ class TopListedCars extends Component {
   render() {
     const { cars } = this.state;
     return (
-      <div className="mt-16 lg:mt-20 w-4/5 md:w-5/6 m-3 mx-auto text-squid-100">
+      <div className="mt-16 lg:mt-20 w-11/12 md:w-5/6 m-3 mx-auto text-squid-100">
         <h3 className="text-2xl uppercase tracking-wide font-bold">
           Top Listed Cars
         </h3>
