@@ -69,3 +69,7 @@
 - [ ] Business Cars Page
 
 ## Bugs
+
+## Additions / Modifications
+
+- [ ] Add accept terms and conditions to signup process
