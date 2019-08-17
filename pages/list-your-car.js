@@ -21,7 +21,7 @@ const Div = styled.div`
 const ListYourCar = () => {
   return (
     <>
-      <Header className="h-screen w-screen">
+      <Header className="h-screen w-full">
         <Nav />
         <div className="w-4/5 md:w-3/5 xl:w-2/4 mx-auto pt-40 md:pt-56 md:text-center text-white">
           <h1 className="font-bold text-3xl md:text-4xl leading-tight">
