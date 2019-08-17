@@ -44,14 +44,14 @@ const ListYourCar = () => {
         </h2>
         <div className="lg:flex">
           <div className="mt-6 lg:mt-10 lg:mr-8">
-            <h3 className="text-2xl font-bold">You're safe</h3>
+            <h3 className="text-2xl font-bold">You&apos;re safe</h3>
             <p className="mt-2 lg:mt-4 text-lg">
               We screen all travelers before allowing them to book cars in our
               marketplace.
             </p>
           </div>
           <div className="mt-10 lg:mt-10 lg:ml-8">
-            <h3 className="text-2xl font-bold">You're not alone</h3>
+            <h3 className="text-2xl font-bold">You&apos;re not alone</h3>
             <p className="mt-2 lg:mt-4 text-lg">
               From our 24/7 emergency line to tips and tricks to earn more with
               your car, we’ll be here for you every step of the way.
