@@ -22,7 +22,7 @@ class Nav extends Component {
           </div>
           <div className="hidden w-1/3 md:flex items-center justify-between uppercase text-sm">
             {auth ? (
-              <Link href="/list-your-car">
+              <Link href="/list-your-car-auth">
                 <a>List Your Car</a>
               </Link>
             ) : (
@@ -46,13 +46,13 @@ class Nav extends Component {
           <div className="hidden w-1/3 md:flex md:w-2/5 lg:w-1/3 items-center justify-between uppercase text-sm">
             {auth ? (
               <>
-                <Link href="">
+                <Link href="/trips">
                   <a>Trips</a>
                 </Link>
-                <Link href="">
+                <Link href="/messages">
                   <a>Messages</a>
                 </Link>
-                <Link href="">
+                <Link href="/profile">
                   <a>Profile</a>
                 </Link>
               </>
@@ -79,19 +79,19 @@ class Nav extends Component {
               </Link>
             </li>
             <li>
-              <Link href="/list-your-car">
+              <Link href="/list-your-car-auth">
                 <a>List Your Car</a>
               </Link>
             </li>
             {auth ? (
               <>
                 <li>
-                  <Link href="">
+                  <Link href="/trips">
                     <a>Trips</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="">
+                  <Link href="/messages">
                     <a>Messages</a>
                   </Link>
                 </li>
