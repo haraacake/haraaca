@@ -25,7 +25,7 @@ class LoginForm extends Component {
             placeholder="keep it strong"
           />
         </label>
-        <Link href="/account">
+        <Link href="/profile">
           <button type="button" className="block text-white btn-long mt-5">
             Login
           </button>
