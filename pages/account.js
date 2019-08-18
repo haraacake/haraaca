@@ -16,7 +16,7 @@ class Account extends Component {
     return (
       <>
         <div>
-          <Nav />
+          <Nav auth />
         </div>
       </>
     );

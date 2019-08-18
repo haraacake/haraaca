@@ -61,7 +61,7 @@
 
 ## TODO
 
-- [ ] Town Page
+- [x] Town Page
 - [ ] Account Page
 - [ ] How it works page
 
@@ -73,3 +73,4 @@
 ## Additions / Modifications
 
 - [ ] Add accept terms and conditions to signup process
+- [ ] Insert Reviews in various pages

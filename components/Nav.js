@@ -6,6 +6,8 @@ class Nav extends Component {
   state = {};
 
   render() {
+    const { auth } = this.props;
+
     return (
       <nav className="shadow-md fixed bg-white w-screen z-50">
         <div className="w-11/12 xl:w-10/12 mx-auto text-squid-100 font-bold tracking-wide flex justify-between h-20">
@@ -19,9 +21,15 @@ class Nav extends Component {
             </Link>
           </div>
           <div className="hidden w-1/3 md:flex items-center justify-between uppercase text-sm">
-            <Link href="/how-it-works">
-              <a>How It Works</a>
-            </Link>
+            {auth ? (
+              <Link href="/list-your-car">
+                <a>List Your Car</a>
+              </Link>
+            ) : (
+              <Link href="/how-it-works">
+                <a>How It Works</a>
+              </Link>
+            )}
             <Link href="/book-a-car">
               <a>Book A Car</a>
             </Link>
@@ -36,15 +44,31 @@ class Nav extends Component {
             </Link>
           </div>
           <div className="hidden w-1/3 md:flex md:w-2/5 lg:w-1/3 items-center justify-between uppercase text-sm">
-            <Link href="/list-your-car">
-              <a>List Your Car</a>
-            </Link>
-            <Link href="/login">
-              <a>Login</a>
-            </Link>
-            <Link href="/signup">
-              <a>Signup</a>
-            </Link>
+            {auth ? (
+              <>
+                <Link href="">
+                  <a>Trips</a>
+                </Link>
+                <Link href="">
+                  <a>Messages</a>
+                </Link>
+                <Link href="">
+                  <a>Profile</a>
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link href="/list-your-car">
+                  <a>List Your Car</a>
+                </Link>
+                <Link href="/login">
+                  <a>Login</a>
+                </Link>
+                <Link href="/signup">
+                  <a>Signup</a>
+                </Link>
+              </>
+            )}
           </div>
         </div>
         <div className="flex mb-3 md:hidden">
@@ -59,16 +83,38 @@ class Nav extends Component {
                 <a>List Your Car</a>
               </Link>
             </li>
-            <li>
-              <Link href="/login">
-                <a>Login</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/signup">
-                <a>Signup</a>
-              </Link>
-            </li>
+            {auth ? (
+              <>
+                <li>
+                  <Link href="">
+                    <a>Trips</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="">
+                    <a>Messages</a>
+                  </Link>
+                </li>
+                {/* <li>
+                  <Link href="">
+                    <a>Profile</a>
+                  </Link>
+                </li> */}
+              </>
+            ) : (
+              <>
+                <li>
+                  <Link href="/login">
+                    <a>Login</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/signup">
+                    <a>Signup</a>
+                  </Link>
+                </li>
+              </>
+            )}
           </ul>
         </div>
       </nav>
