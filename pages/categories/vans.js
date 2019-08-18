@@ -7,10 +7,10 @@ import Search from '../../components/Search';
 import CarCard from '../../components/CarCard';
 import Footer from '../../components/Footer';
 
-class Town extends Component {
+class Vans extends Component {
   state = {
-    town: {
-      name: 'Mombasa',
+    car: {
+      type: 'Vans',
       topCars: {
         car1: {
           title: `Tesla Model 3`,
@@ -53,8 +53,8 @@ class Town extends Component {
   };
 
   render() {
-    const { town } = this.state;
-    const { topCars } = town;
+    const { car } = this.state;
+    const { topCars } = car;
 
     return (
       <>
@@ -62,7 +62,7 @@ class Town extends Component {
           <Nav />
           <div className="pt-48 md:pt-56 w-11/12 mx-auto">
             <h1 className="text-4xl font-bold mb-12 text-center leading-tight">
-              Rental cars in {town.name}, Kenya.
+              {car.type} for rental
             </h1>
             <div className="md:w-9/12 mx-auto">
               <Search />
@@ -70,7 +70,7 @@ class Town extends Component {
           </div>
           <div className="w-11/12 mx-auto mt-10 md:mt-16">
             <h2 className="text-4xl font-bold leading-tight">
-              Top Cars in {town.name}, Kenya
+              Book Perfect {car.type}
             </h2>
             <div className="flex flex-col md:flex-row md:justify-between flex-wrap mt-4">
               {Object.keys(topCars).map(key => (
@@ -85,7 +85,7 @@ class Town extends Component {
                   className="btn text-white font-bold tracking-wide uppercase"
                   type="button"
                 >
-                  see more cars in {town.name}
+                  see more {car.type}
                 </button>
               </div>
             </div>
@@ -97,4 +97,4 @@ class Town extends Component {
   }
 }
 
-export default Town;
+export default Vans;
