@@ -10,7 +10,7 @@ import Footer from '../../components/Footer';
 class Town extends Component {
   state = {
     town: {
-      name: 'Mombasa',
+      name: 'Eldorate',
       topCars: {
         car1: {
           title: `Tesla Model 3`,
