@@ -61,8 +61,6 @@
 
 ## TODO
 
-- [x] Town Page
-- [ ] Account Page
 - [ ] How it works page
 
 - [ ] Vehicle Type Page
