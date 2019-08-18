@@ -7,17 +7,17 @@ class FeaturedCars extends Component {
   state = {
     towns: {
       town1: {
-        title: `Nairobi`,
+        title: `nairobi`,
         price: '1900',
         image: '/static/nairobi.png',
       },
       town2: {
-        title: `Mombasa`,
+        title: `mombasa`,
         price: '1190',
         image: '/static/mombasa.png',
       },
       town3: {
-        title: `Kisumu`,
+        title: `kisumu`,
         price: '809',
         image: '/static/kisumu.png',
       },

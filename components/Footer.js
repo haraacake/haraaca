@@ -54,22 +54,22 @@ const Footer = () => {
             <h3 className="font-bold text-xl">Top Cities</h3>
             <ul className="md:mt-2">
               <li>
-                <Link href="/town">
+                <Link href="/towns/nairobi">
                   <a>Nairobi</a>
                 </Link>
               </li>
               <li>
-                <Link href="/town">
+                <Link href="/towns/mombasa">
                   <a>Mombasa</a>
                 </Link>
               </li>
               <li>
-                <Link href="/town">
+                <Link href="/towns/kisumu">
                   <a>Kisumu</a>
                 </Link>
               </li>
               <li>
-                <Link href="/town">
+                <Link href="/towns/eldorate">
                   <a>Eldorate</a>
                 </Link>
               </li>

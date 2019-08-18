@@ -2,10 +2,10 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-import Nav from '../components/Nav';
-import Search from '../components/Search';
-import CarCard from '../components/CarCard';
-import Footer from '../components/Footer';
+import Nav from '../../components/Nav';
+import Search from '../../components/Search';
+import CarCard from '../../components/CarCard';
+import Footer from '../../components/Footer';
 
 class Town extends Component {
   state = {

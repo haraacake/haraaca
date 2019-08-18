@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import Link from 'next/link';
@@ -5,7 +6,7 @@ import Link from 'next/link';
 const TownCard = props => {
   const { details } = props;
   return (
-    <Link href="/town">
+    <Link href={`/towns/${details.title}`}>
       <a className="antialiased flex shadow-md mt-6 rounded md:m-2 lg:m-3">
         <div>
           <img
