@@ -28,10 +28,26 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-xl">Vehicle Types</h3>
             <ul className="md:mt-2">
-              <li>Trucks</li>
-              <li>Vans</li>
-              <li>Luxury & Exotic</li>
-              <li>Minivans</li>
+              <li>
+                <Link href="/categories/trucks">
+                  <a>Trucks</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/vans">
+                  <a>Vans</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/luxury">
+                  <a>Luxury & Exotic</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/minivans">
+                  <a>Minivans</a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="ml-16 md:ml-8 lg:ml-24 xl:ml-48">
