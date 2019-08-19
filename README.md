@@ -37,6 +37,13 @@
 - Queried Directl from our Yoga server
 - Self-hosted or SAAS
 
+#### Third Party Services
+
+- Prisma
+- Postmark (Emails)
+- Heroku, Zeit For Hosting or Digital Ocean
+- Heroku or Mongo Atlsa for Database Host
+
 ## TODO
 
 ## Bugs
