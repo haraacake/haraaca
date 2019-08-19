@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unused-state */
 import React, { Component } from 'react';
+import Link from 'next/link';
 
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
@@ -79,6 +80,11 @@ class Profile extends Component {
                   free to include links to your LinkedIn, Twitter, or Facebook
                   profiles so they get to know you even better.
                 </p>
+                <Link href="/list-your-car-auth">
+                  <button className="btn text-white mt-4" type="button">
+                    List Your Car
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="mt-10">
