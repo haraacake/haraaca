@@ -62,9 +62,9 @@
 ## TODO
 
 - [ ] How it works page
-
-- [ ] Vehicle Type Page
-- [ ] Business Cars Page
+- [ ] Trip
+- [ ] Messages
+- [ ] List your car auth
 
 ## Bugs
 
