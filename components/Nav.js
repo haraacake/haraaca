@@ -22,7 +22,7 @@ class Nav extends Component {
           </div>
           <div className="hidden w-1/3 md:flex items-center justify-between uppercase text-sm">
             {auth ? (
-              <Link href="/list-your-car-auth">
+              <Link href="/list-your-car/list">
                 <a>List Your Car</a>
               </Link>
             ) : (
@@ -79,7 +79,7 @@ class Nav extends Component {
               </Link>
             </li>
             <li>
-              <Link href="/list-your-car-auth">
+              <Link href="/list-your-car/list">
                 <a>List Your Car</a>
               </Link>
             </li>

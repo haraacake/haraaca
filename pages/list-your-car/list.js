@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unused-state */
 import React, { Component } from 'react';
 
-import Nav from '../components/Nav';
+import Nav from '../../components/Nav';
 
 class ListYourCarAuth extends Component {
   state = {

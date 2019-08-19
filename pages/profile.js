@@ -80,7 +80,7 @@ class Profile extends Component {
                   free to include links to your LinkedIn, Twitter, or Facebook
                   profiles so they get to know you even better.
                 </p>
-                <Link href="/list-your-car-auth">
+                <Link href="/list-your-car/list">
                   <button className="btn text-white mt-4" type="button">
                     List Your Car
                   </button>
