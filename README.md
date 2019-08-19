@@ -37,34 +37,7 @@
 - Queried Directl from our Yoga server
 - Self-hosted or SAAS
 
-## Main Routes
-
-- Home Page
-  - search
-  - marketing messages
-  - top/featured cars
-  - top destinations
-- List Your Car
-- Place/Town Pages (Top Car and Hosts)
-- Car Page (Car Details)
-- Search
-  - Maps
-  - Filters
-- Login
-- Sign Up (Multi Step Form or Accounts)
-- Account
-- Messages/Notifications
-- Trips
-- Contact Support
-- Haraaca For Business
-- How it Works
-
 ## TODO
-
-- [ ] How it works page
-- [ ] Trip
-- [ ] Messages
-- [ ] List your car auth
 
 ## Bugs
 
