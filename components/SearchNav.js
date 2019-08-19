@@ -75,24 +75,27 @@ const Nav = () => {
             placeholder="Car Type, Pick-up location"
           />
         </div>
-        <div className="mt-5 flex">
-          <button className="btn-filter text-white uppercase" type="button">
+        <div className="mt-5 flex text-xs">
+          <button
+            className="btn-filter text-white uppercase md:px-4 md:py-2"
+            type="button"
+          >
             Dates
           </button>
           <button
-            className="ml-2 btn-filter text-white uppercase"
+            className="ml-2 btn-filter text-white uppercase md:px-4 md:py-2"
             type="button"
           >
             Car Types
           </button>
           <button
-            className="ml-2 btn-filter text-white uppercase"
+            className="ml-2 btn-filter text-white uppercase md:px-4 md:py-2"
             type="button"
           >
             Prices
           </button>
           <button
-            className="ml-2 btn-filter text-white uppercase"
+            className="ml-2 btn-filter text-white uppercase md:px-4 md:py-2"
             type="button"
           >
             More
