@@ -13,7 +13,10 @@ const SearchContainer = styled.div``;
 const Search = () => {
   return (
     <SearchContainer>
-      <form className="relative md:hidden w-full bg-white shadow-lg rounded p-6">
+      <form className="relative w-full bg-white shadow-lg rounded p-6 md:w-2/4 lg:w-2/5">
+        <h3 className="hidden md:block leading-tight text-squid-100 text-left text-3xl font-bold mb-10">
+          Unforgettable experiences, Affordable Cars.
+        </h3>
         <div>
           <label htmlFor="search">
             <span className="text-sm font-bold text-gray-600">Where</span>
@@ -36,7 +39,7 @@ const Search = () => {
               placeholderText="Pick a date"
             />
           </div>
-          <div className="flex flex-col mt-3 outline-none text-gray-600">
+          <div className="flex flex-col mt-3 xl:ml-12 outline-none text-gray-600">
             <Time className="" />
           </div>
         </div>
@@ -51,63 +54,19 @@ const Search = () => {
               placeholderText="Pick a date"
             />
           </div>
-          <div className="flex flex-col mt-3 outline-none text-gray-600">
+          <div className="flex flex-col mt-3 xl:ml-12 outline-none text-gray-600">
             <Time className="" />
           </div>
         </div>
         <div className="mt-2">
-          <button type="button" className="w-full btn text-white">
+          <button
+            type="button"
+            className="w-full btn text-white md:w-1/2 lg:ml-40 xl:ml-48"
+          >
             Search
           </button>
         </div>
       </form>
-      <div className="w-full bg-white shadow-lg rounded-tr-full rounded-br-full">
-        <form className="hidden md:flex p-2 justify-between">
-          <div className="">
-            <label htmlFor="search">
-              <span className="text-sm font-bold text-gray-600">Where</span>
-              <input
-                id="search"
-                type="text"
-                placeholder="Enter your pick-up location"
-                className="w-full outline-none"
-              />
-            </label>
-          </div>
-          <div className="flex border-l-2 pl-4">
-            <div className="flex flex-col">
-              <label htmlFor="from" className="text-sm text-gray-600 font-bold">
-                From
-              </label>
-              <DatePicker
-                className="w-full outline-none"
-                id="from"
-                placeholderText="Pick a date"
-              />
-            </div>
-          </div>
-          <div className="flex border-l-2 pl-4">
-            <div className="flex flex-col">
-              <label htmlFor="from" className="text-sm text-gray-600 font-bold">
-                Until
-              </label>
-              <DatePicker
-                className="w-full outline-none"
-                id="from"
-                placeholderText="Pick a date"
-              />
-            </div>
-          </div>
-          <div>
-            <button
-              type="button"
-              className="bg-teal-500 w-12 h-12 rounded-full"
-            >
-              <img src="/static/search.png" alt="" />
-            </button>
-          </div>
-        </form>
-      </div>
     </SearchContainer>
   );
 };

@@ -19,11 +19,8 @@ const Home = () => {
     <>
       <Div className="h-screen w-full">
         <Nav />
-        <div className="container mx-auto pt-56">
-          <h3 className="hidden md:block leading-tight text-white text-5xl text-center font-bold mb-10">
-            Unforgettable experiences, Affordable Cars.
-          </h3>
-          <div className="w-11/12 lg:w-8/12 mx-auto">
+        <div className="container mx-auto pt-56 md:pt-32 xl:pt-48">
+          <div className="w-11/12 lg:w-11/12 mx-auto">
             <Search />
           </div>
         </div>
